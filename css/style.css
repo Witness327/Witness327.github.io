@@ -1,17 +1,18 @@
 
-.top-nav {
+.top-nav {    
     overflow: hidden;
     background-color: whitesmoke;
-    position: relative;    
+    position: relative; 
 }
 
 .top-nav #my-links {
     display: none;
     
+    
 }
 
 .top-nav a {
-    color: white;
+    color: steelblue;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
@@ -20,7 +21,7 @@
 }
 
 .top-nav a.icon {
-    background: black;
+    background: whitesmoke;
     display: block;
     position: absolute;
     right: 0;
@@ -28,11 +29,15 @@
 }
 
 .top-nav a:hover {
-    background-color: #ddd;
-    color: black;
+    background-color: lightsteelblue;
+    color: white;
 }
 
 .active {
-    background-color: #4caf50;
+    background-color: whitesmoke;
     color: white;
+}
+
+body {
+    background-color: black;
 }
